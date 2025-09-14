@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    console.log('Location search: ', location.search);
+    console.log('Channel param: ', getUrlParameter('channel'));
     // Get values from URL string
     function getUrlParameter(name) {
         name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
